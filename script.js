@@ -71,8 +71,8 @@ function set_food_position() {
 
 function refresh_board() {
     board.innerHTML = ""
-    snake.draw()
-    food.draw()
+    snake.draw(board)
+    food.draw(board)
 }
 
 function listen_arrow_presses() {

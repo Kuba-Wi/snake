@@ -17,8 +17,7 @@ export class Food {
         }
     }
 
-    draw() {
-        let board = document.getElementById("board")
+    draw(board) {
         let food = document.createElement("div")
         food.style.gridRowStart = this.y
         food.style.gridColumnStart = this.x

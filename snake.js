@@ -45,8 +45,7 @@ export class Snake {
         }
     }
 
-    draw() {
-        let board = document.getElementById("board")
+    draw(board) {
         for (let i = 0; i < this.body.length; ++i) {
             let snake_element = document.createElement("div")
             snake_element.style.gridRowStart = this.body[i].y
