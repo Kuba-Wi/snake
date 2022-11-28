@@ -1,0 +1,23 @@
+#board {
+    width:  100vmin;
+    height: 100vmin;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.snake {
+    background-color: blue;
+    border: .25vmin solid black;
+}
+
+.food {
+    background-color: yellow;
+    border: .25vmin solid black;
+}
