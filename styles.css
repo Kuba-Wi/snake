@@ -21,3 +21,22 @@
     background-color: yellow;
     border: .25vmin solid black;
 }
+
+.start-btn {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -100px;
+    color: black;
+    background-color: #56CCF2;
+    border: 2px solid black;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.start-btn:hover {
+    background-color: #2D9CDB;
+}
